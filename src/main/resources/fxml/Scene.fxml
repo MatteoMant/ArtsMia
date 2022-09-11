@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.artsmia.FXMLController">
+<BorderPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.artsmia.FXMLController">
    <top>      
       <Label text="Artsmia (Esame del 10/07/2017)" BorderPane.alignment="CENTER">
          <font>
@@ -55,7 +55,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </GridPane>
-            <TextArea fx:id="txtResult" prefRowCount="20" />
+            <TextArea fx:id="txtResult" editable="false" prefRowCount="20" />
          </children>
          <BorderPane.margin>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
